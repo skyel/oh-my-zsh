@@ -79,7 +79,7 @@ function git_time_since_commit() {
     fi
 }
 
-TMOUT=1
+TMOUT=15
 
 TRAPALRM() {
     zle reset-prompt
